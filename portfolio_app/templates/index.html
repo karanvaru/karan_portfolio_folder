@@ -9,7 +9,7 @@
   
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
   
-  <title>Karan Portfolio</title>
+  <title>Virtual Folio - Portfolio HTML5 Template</title>
 
   <link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
   
@@ -73,7 +73,7 @@
     </div>
   </div>
   
-  <div class="vg-page page-home" id="home" style="background-image: url({% static 'img/bg_image_1.jpg' %})">
+  <div class="vg-page page-home" id="home" style="background-image: url({% static 'img/bg_image_1.jpg'%})">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -126,8 +126,8 @@
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
           <h1 class="fw-light">Karan Varu</h1>
-          <h5 class="fg-theme mb-3">Phyton Devlopersssss</h5>
-          <p class="text-muted">Hello! My name is Karan varu and I enjoy creating things that people can interact with online. My interest in web development started back in 2022 when I decided to try some project's with Python langauge And Odoo ERP.</p>
+          <h5 class="fg-theme mb-3">Phyton Devloper</h5>
+          <p class="text-muted">Hello! My name is Karan Varu and I enjoy creating things that people can interact with online. My interest in backend development started back in 2022 when I decided to try some project's with Python langauge And Odoo ERP.</p>
           <ul class="theme-list">
 
             <li><b>E-mail:</b> karanvaru37833@gmail.com</li>
@@ -145,71 +145,77 @@
         </div>
       </div>
     </div>
-    <div class="container py-5" id="skills">
+    <section id="skills" class="mt-4 container">
+    <div class="container" style="padding-top: 90px">
       <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
       <div class="row py-3">
-        <div class="col-md-6">
-          <div class="px-lg-3">
+        <div class="col-md-4">
+          <div class="px-lg-3 text-center">
             {% comment %} <h4 class="wow fadeInUp">Coding skills</h4> {% endcomment %}
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Python</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
+              <span class="caption"><b>Python</b></span>
+              {% comment %} <div class="progress">
+                <div class="progre ss-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div> {% endcomment %}
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Odoo</span>
-              <div class="progress">
+              <span class="caption"><b>Odoo</b></span>
+              {% comment %} <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
+              </div> {% endcomment %}
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Django</span>
-              <div class="progress">
+              <span class="caption"><b>Django</b></span>
+              {% comment %} <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Postgresql</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">65%</div>
-              </div>
+              </div> {% endcomment %}
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="px-lg-3">
+        <div class="col-md-4">
+          <div class="px-lg-3 text-center">
             {% comment %} <h4 class="wow fadeInUp">Design Skills</h4> {% endcomment %}
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">HTML</span>
-              <div class="progress">
+              <span class="caption"><b>HTML</b></span>
+              {% comment %} <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
-              </div>
+              </div> {% endcomment %}
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">CSS</span>
-              <div class="progress">
+              <span class="caption"><b>CSS</b></span>
+              {% comment %} <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
+              </div> {% endcomment %}
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Javascript</span>
-              <div class="progress">
+              <span class="caption"><b>Javascript</b></span>
+              {% comment %} <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
+              </div> {% endcomment %}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="px-lg-3 text-center">
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption"><b>GitHub</b></span>
+              {% comment %} <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div> {% endcomment %}
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">GitHub</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
-              </div>
+              <span class="caption"><b>Postgresql</b></span>
+              {% comment %} <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">65%</div>
+              </div> {% endcomment %}
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
     <div class="container pt-5" id="edu_exp">
-      <div class="row">
+      <div class="row" style="padding-top: 90px">
         <div class="col-md-6 wow fadeInRight">
           <h2 class="fw-normal">Education</h2>
           <ul class="timeline mt-4 pr-md-5">
@@ -624,7 +630,9 @@
               <div class="col-12 mt-3 wow fadeInUp">
                 <textarea class="form-control" name="message" rows="6" placeholder="Enter message here.."></textarea>
               </div>
+              <div style="margin-left:100px;">
               <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
+              </div>
             </div>
           </form>
         </div>
